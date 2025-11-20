@@ -1,0 +1,199 @@
+@font-face {
+    font-family: SageSans;
+    src: url(sagesans-Regular.ttf);
+}
+body {
+    text-align: center;
+    background-image: url(images/chickensbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+.mainhr {
+    width: 1000px;
+    border: 3px rgb(42, 77, 51) solid;
+}
+.font {
+    font-family: SageSans;
+    font-size: x-large;
+}
+.main {
+    background-color: rgba(95, 68, 55, 0.8);
+    padding: 40px;
+    width: 50%;
+    margin: auto;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    line-height: 150%;
+    vertical-align: top;
+}
+.navbar {
+    background-color: rgba(95, 68, 55, 0.8);
+    list-style: none;
+    height: 150px;
+    display: inline-block;
+    margin: -40px;
+    line-height: 200px;
+    z-index: -1;
+    padding-right: 50px;
+    padding-left: 80px;
+}
+.chf {
+    background-color: rgb(42, 77, 51);
+    padding: 50px;
+    font-size: xx-large;
+    z-index: 0;
+    line-height: 100px;
+    margin-left: -40px;
+    position: relative;
+}
+.navbutton {
+    padding: 50px;
+    background-color: transparent;
+    border: transparent 0px;
+    color: white;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.side {
+    display: inline-block;
+    background-color: rgba(95, 68, 55, 0.8);
+    padding: 20px;
+    margin-right: 50px;
+    position: relative;
+    top: 21px;
+    width: 300px;
+}
+.sidep {
+    text-align: justify;
+    padding: 30px;
+}
+.sidepb {
+    padding: 30px;
+    border: rgb(138, 116, 96) solid 2px;
+}
+.sidehr {
+    color: rgb(138, 116, 96);
+    font-weight: bold;
+}
+.pics {
+    height: 430px;
+    margin: 35px;
+    margin-top: 60px;
+}
+.mission {
+    background-color: rgba(95, 68, 55, 0.8);
+    padding: 40px;
+    width: 76%;
+    margin: auto;
+    display: inline-block;
+    line-height: 150%;
+    text-align: justify;
+}
+.bot {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.bottom {
+    background-color: rgb(42, 77, 51);
+    padding: 30px;
+    margin: -8px;
+}
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: darkseagreen;
+    text-decoration: none;
+}
+.dropbtn {
+    padding: 50px;
+    background-color: transparent;
+    border: transparent 0px;
+    color: white;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(42, 77, 51);
+  z-index: 1;
+  width: 220px;
+  left: -35px;
+  top: 100px;
+}
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  height: 50px;
+  padding: 10px;
+  border: ridge rgb(42, 77, 51) 5px;
+  border-collapse: collapse;
+}
+.morefix {
+    position: relative;
+    top: -75px;
+}
+.dropdown-content a:hover {background-color: darkseagreen;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {color: darkseagreen;}
+.chfb {
+    background-color: rgb(42, 77, 51);
+    padding: 50px;
+    font-size: xx-large;
+    z-index: 0;
+    line-height: 100px;
+    margin-left: -40px;
+    position: relative;
+}
+.mainb {
+    background-color: rgba(95, 68, 55, 0.8);
+    padding: 40px;
+    width: 50%;
+    margin: auto;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    line-height: 150%;
+    text-align: justify;
+    vertical-align: top;
+}
+.content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.1s ease-out;
+}
+button {
+    background-color: transparent;
+    border: transparent 0px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;    
+    position: sticky;
+}
+button:hover, button:active {
+    color: darkseagreen;
+}
+h2.collapse {
+    position: sticky;
+}
+.missionb {
+    background-color: rgba(95, 68, 55, 0.8);
+    padding: 40px;
+    width: 76%;
+    margin: auto;
+    display: inline-block;
+    line-height: 150%;
+}
